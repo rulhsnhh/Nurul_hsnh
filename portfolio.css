@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(73, 75, 75);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(43, 43, 43);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 90px;
+    width: 2020px;
+    position: fixed;
+}
+
+.bungkus-nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.textnav1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.textnav2 {
+    color: #fff;
+    font-size: 60px;
+    padding-left: 15px;
+}
+
+.bungkus-nav1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home {
+    color: #fff;
+    text-decoration: none;   
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 60px;
+    transition: all 0.4s ease-in-out;
+}
+
+.home:hover {
+    color: rgb(0, 255, 0);
+}
+
+.about {
+    color: #fff;
+    text-decoration: none;   
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 60px;
+    transition: all 0.4s ease-in-out;
+}
+
+.about:hover {
+    color: rgb(0, 255, 0);
+}
+
+.portfolio {
+    color: rgb(0, 255, 0);
+    text-decoration: none;   
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 60px;
+    transition: all 0.4s ease-in-out;
+}
+
+.portfolio:hover {
+    color: rgb(0, 255, 0);
+}
+
+.contact {
+    color: #fff;
+    text-decoration: none;   
+    font-size: 30px;
+    font-weight: 400;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact:hover {
+    color: rgb(0, 255, 0);
+}
+
+/* konten */
+
+.bungkusan {
+    padding-top: 160px;
+}
+
+.konten1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.konten2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.konten3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.konten4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 90px;
+}
+
+.konten5 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 90px;
+}
+
+.bungkus1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bungkus2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p-1 {
+    color: #fff;
+    text-align: justify;
+    height: 60px;
+    width: 850px;
+    padding-right: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.p-2 {
+    color: #fff;
+    text-align: justify;
+    height: 60px;
+    width: 850px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.p-3 {
+    color: #fff;
+    text-align: justify;
+    height: 60px;
+    width: 850px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+}
+
+.p-4 {
+    color: #fff;
+    text-align: justify;
+    height: 60px;
+    width: 850px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.p-5 {
+    color: #fff;
+    text-align: justify;
+    height: 60px;
+    width: 850px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.image {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img1 {
+    height: 440px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 2px black;
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        width: 360px;
+        height: 110px;
+        position: fixed;
+        flex-direction: column;
+    }
+
+    .bungkus-nav {
+        height: 30px;
+    }
+
+    .textnav1 {
+        font-size: 30px;
+    }
+
+    .textnav2 {
+        font-size: 30px;
+    }
+
+    .home {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .about {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .portfolio {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .bungkuskonten1 {
+        padding-left: 80px;
+        padding-top: 30px;
+        height: 420px;
+    }
+
+    .contact {
+        font-size: 15px;
+    }
+
+    .bungkus1 {
+        flex-direction: column;
+    }
+
+    .konten1 {
+        padding-left: 50px;
+    }
+
+    .p-1 {
+        font-size: 19px;
+        width: 240px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .img1 {
+        height: 170px;
+    }
+
+    .p-2 {
+        font-size: 19px;
+        width: 240px;
+        padding-top: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .p-3 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 240px;
+        font-size: 19px;
+    }
+
+    .bungkus2 {
+        flex-direction: column;
+    }
+
+    .p-4 {
+        width: 240px;
+        font-size: 19px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .p-5 {
+        width: 240px;
+        font-size: 19px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}

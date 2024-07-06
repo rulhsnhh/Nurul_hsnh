@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(73, 75, 75);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(43, 43, 43);
+    padding: 1px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 90px;
+}
+
+.bungkus-nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.textnav1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.textnav2 {
+    color: #fff;
+    font-size: 60px;
+    padding-left: 15px;
+}
+
+.bungkus-nav1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home {
+    color: rgb(0, 255, 0);
+    text-decoration: none;   
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 60px;
+    transition: all 0.4s ease-in-out;
+}
+
+.home:hover {
+    color: rgb(0, 255, 0);
+}
+
+.about {
+    color: #fff;
+    text-decoration: none;   
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 60px;
+    transition: all 0.4s ease-in-out;
+}
+
+.about:hover {
+    color: rgb(0, 255, 0);
+}
+
+.portfolio {
+    color: #fff;
+    text-decoration: none;   
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 60px;
+    transition: all 0.4s ease-in-out;
+}
+
+.portfolio:hover {
+    color: rgb(0, 255, 0);
+}
+
+.contact {
+    color: #fff;
+    text-decoration: none;   
+    font-size: 30px;
+    font-weight: 400;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact:hover {
+    color: rgb(0, 255, 0);
+}
+
+/* KONTEN */
+
+.textkonten1 {
+    color: #0af516;
+    font-size: 90px;
+    height: 70px;
+}
+
+
+
+.p-1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.p-2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.textkonten2 {
+    color: #33ff00;
+    font-size: 90px;
+}
+
+.bungkuskonten1 {
+    padding-left: 200px;
+    height: 196px;
+}
+
+.image {
+    padding-left: 1300px;
+}
+
+.img {
+    height: 600px;
+    filter: drop-shadow(0px 5px 10px black);
+}
+
+.NH {
+    color: #1d1c1c;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        width: 358spx;
+        height: 110px;
+        flex-direction: column;
+    }
+
+    .bungkus-nav {
+        height: 30px;
+    }
+
+    .textnav1 {
+        font-size: 30px;
+    }
+
+    .textnav2 {
+        font-size: 30px;
+    }
+
+    .home {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .about {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .portfolio {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .bungkuskonten1 {
+        padding-left: 80px;
+        padding-top: 30px;
+        height: 420px;
+    }
+
+    .contact {
+        font-size: 15px;
+    }
+
+    .image {
+        padding-left: 70px;
+    }
+
+    .img {
+        height: 300px;
+    }
+
+    .textkonten1 {
+        font-size: 40px;
+        height: 40px;
+    }
+
+    .p-1 {
+        font-size: 25px;
+    }
+
+    .p-2 {
+        font-size: 25px;
+    }
+
+    .textkonten2 {
+        font-size: 40px;
+        height: 20px;
+    }
+
+    .NH {
+        font-size: 15px;
+    }
+}
